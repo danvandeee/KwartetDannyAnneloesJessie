@@ -13,11 +13,17 @@ public class Kaart {
 		
 		return kleur;
 	}
+	public void setKleur(String kleur) {
+		
+	}
+	
 	
 	public String getNummerofplaatje () {
 		return nummerofplaatje;
 		
 	}
 	
-	
+	public void setNummerofplaatje(String nummerofplaatje) {
+		
+	}
 }
