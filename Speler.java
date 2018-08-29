@@ -30,5 +30,20 @@ public String getNaamSpeler () {
 		
 	}
 	
+	public Kaart checkKaartUitHand (Kaart kaart) {
+		
+		for (Kaart kaartje : hand) {
+			if (kaartje == kaart) {
+				hand.remove(kaartje);
+				return kaartje;
+			} //end if kaartje
+			
+			
+		} //end for loop
+		return null;
+		
+		
+	} //end removekaartuithand
+	
 	
 }

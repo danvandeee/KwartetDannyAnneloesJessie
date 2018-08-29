@@ -65,8 +65,22 @@ public class KwartetSpel {
 			System.out.print("\n");
 
 		} //end for i loop
-
+		
+		spelen();
+		
 	} //end setup
 
-
+	
+	private void spelen () {
+		boolean isAanHetSpelen = true;
+		while (isAanHetSpelen) {
+			
+			
+		} //end while is aan het spelen == true
+		
+	} // end spelen
+	
+	
+	
+	
 } //end class
