@@ -28,12 +28,13 @@ public class KwartetSpel {
 		int setNu = 2;
 		String [] vormpjes = {"harten","klaveren","schoppen","ruiten"};
 		
-		for(int i = 0; i <= aantalSets; i++) {
+		for(int i = setNu; i < aantalSets+setNu; i++) {
 			for (String vormpje: vormpjes) {
 				Kaart kaart = new Kaart();
-				kaart.
-				
-				
+				kaart.setKleur(vormpje);
+				kaart.setNummerofplaatje(i +"");
+				deck.add(kaart);
+				System.out.println(kaart.getNaam());
 			}
 			
 		}

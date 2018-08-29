@@ -14,7 +14,7 @@ public class Kaart {
 		return kleur;
 	}
 	public void setKleur(String kleur) {
-		
+		this.kleur = kleur;
 	}
 	
 	
@@ -24,6 +24,6 @@ public class Kaart {
 	}
 	
 	public void setNummerofplaatje(String nummerofplaatje) {
-		
+		this.nummerofplaatje = nummerofplaatje;
 	}
 }
